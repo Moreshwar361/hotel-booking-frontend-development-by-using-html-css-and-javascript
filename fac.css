@@ -1,0 +1,224 @@
+.head
+{
+    width:100%;
+}
+.our
+{
+    text-align: center;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    font-size: 60px;
+    color: #ecf0f1;
+    text-shadow: 3px 3px 10px black
+}
+.at
+{
+    font-size: 20px;
+    text-align: center;
+}
+.pool
+{
+    height: 160px;
+    width: 277px;
+    border-radius: 10px;
+    padding-top: 8px;
+}
+.swm
+{
+    width: 309px;
+    height: 316px;
+    box-shadow: 3px 3px 10px#b45f3b;
+    transition: transform 0.4s;
+}
+.swm:hover
+{
+    transform: translateY(-6px);
+}
+.textswm
+{
+    font-size: 27px;
+    margin: 10px;
+    color: #b45f3b;
+}
+.royal
+{
+    font-size: 20px;
+}
+.resto
+{
+    width: 309px;
+    height: 316px;
+    box-shadow: 3px 3px 10px#b45f3b;
+    transition: transform 0.4s;
+}
+.bar
+{
+    height: 160px;
+    width: 277px;
+    border-radius: 10px;
+    padding-top: 8px;
+}
+.resto:hover
+{
+    transform: translateY(-6px);
+}
+.textresto
+{
+    font-size: 27px;
+    margin: 10px;
+    color: #b45f3b;
+}
+.enjoy
+{
+    font-size: 20px;
+}
+.fitness
+{
+    width: 309px;
+    height: 316px;
+    box-shadow: 3px 3px 10px#b45f3b;
+    transition: transform 0.4s;
+}
+.fitness:hover
+{
+    transform: translateY(-6px);
+}
+.gym
+{
+    height: 160px;
+    width: 277px;
+    border-radius: 10px;
+    padding-top: 8px;
+}
+.fit
+{
+    font-size: 27px;
+    margin: 10px;
+    color: #b45f3b;
+}
+.stay
+{
+    font-size: 20px;
+}
+.event
+{
+    width: 309px;
+    height: 316px;
+    box-shadow: 3px 3px 10px#b45f3b;
+    transition: transform 0.4s;
+}
+.event:hover
+{
+    transform: translateY(-6px);
+}
+.imgconf
+{
+    height: 160px;
+    width: 277px;
+    border-radius: 10px;
+    padding-top: 8px;
+}
+.conf
+{
+    font-size: 27px;
+    margin: 10px;
+    color: #b45f3b;
+}
+.hall
+{
+    font-size: 20px;
+}
+.area
+{
+    width: 309px;
+    height: 316px;
+    box-shadow: 3px 3px 10px#b45f3b;
+    transition: transform 0.4s;
+}
+.area:hover
+{
+    transform: translateY(-6px);
+}
+.kid
+{
+    height: 160px;
+    width: 277px;
+    border-radius: 10px;
+    padding-top: 8px;
+}
+.play
+{
+    font-size: 27px;
+    margin: 10px;
+    color: #b45f3b;
+}
+.play-area
+{
+    font-size: 20px;
+}
+.gar
+{
+    width: 309px;
+    height: 316px;
+    box-shadow: 3px 3px 10px#b45f3b;
+    transition: transform 0.4s;
+}
+.gar:hover
+{
+    transform: translateY(-6px);
+}
+.imgar
+{
+    height: 160px;
+    width: 277px;
+    border-radius: 10px;
+    padding-top: 8px;
+}
+.out
+{
+    font-size: 27px;
+    margin: 10px;
+    color: #b45f3b;
+}
+.and
+{
+    font-size: 20px;
+}
+.container
+{
+    padding-top: 30px;
+    width: 100%;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-template-rows: auto auto;
+    justify-content: space-evenly;
+    gap: 50px;
+    padding-bottom: 50px;
+}
+.button
+{
+    padding: 8px 12px 8px 12px;
+    font-weight: bold;
+    font-size: 20px;
+    background-color: #df4908;
+    color: aliceblue;
+    border-radius: 8px;
+    box-shadow: 3px 3px 10px black;
+}
+.footer-bottom 
+{
+    text-align: center;
+    background: #1a252f;
+    padding: 15px;
+    font-size: 20px;
+    color: #95a5a6;
+    height: 100px;
+}
+.bot
+{
+    padding-bottom: 20px;
+}
+.home
+{
+    color: #95a5a6;
+}

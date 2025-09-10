@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="book.css">
+</head>
+<body>
+    <div class="stand" align="center">
+        <div class="img">
+            <img src="gangai1.png" alt="logo" class="logo1" align="Right">
+        </div>
+        <div class="sujal" align="left">
+            <h1 class="logo">Gangai Hotel</h1>
+            <p class="tlog">Book your stay in minutes – luxury made simple.</p>
+        </div>
+    </div>
+    <a href="hotelbooking.html" class="trtr">Home</a>
+    <div class="it">
+        <div class="lux" align="center">
+            <img src="bed2.png" alt="bed" class="prime">
+            <h4 class="ro1">Prime Room</h4>
+            <p class="fac1">Include <br></p>
+            <p class="pickup1">
+                pickup and drop facility <br>
+                diner and breakfast <br>
+                live accsess of restorant and bar <br>
+                Four candidate
+            </p>
+            <p class="per1">8999/day</p>
+        </div>
+        <div class="classic" align="center">
+            <img src="bed1.png" alt="bed" class="clas">
+            <h4 class="ro2">Classic Room</h4>
+            <p class="fac2">Include <br></p>
+            <p class="pickup2">
+                pickup and drop facility <br>
+                diner and breakfast <br>
+                Two candidate <br><br>
+            </p>
+            <p class="per2">5999/day</p>
+        </div>
+        <div class="nor" align="center">
+            <img src="bed1.png" alt="bed" class="normal">
+            <h4 class="ro3">Normal Room</h4>
+            <p class="fac3">Include <br></p>
+            <p class="pickup3">
+                pickup and drop facility <br> OR<br>
+                diner and breakfast <br>
+                Two candidate
+            </p>
+            <p class="per3">3999/day</p>
+        </div>
+    </div>
+    <div class="ddddd">
+        <div class="book">
+            <form name="book" class="form1">
+                <h2 class="title1" align="center">Booking Page</h2>
+                <label>Full Name</label><br>
+                <input type="text" placeholder="Enter Your Name" class="place1" name="in1" id="name"><br><br>
+                <label>Age</label><br>
+                <input type="number" id="age" placeholder="Your Age" class="place2" name="in2" onfocusout="checkname()"> <br> <br>
+                <label>Check-In</label><br>
+                <input type="date" id="checkin" placeholder=" Booking Date" class="place3" name="in3"><br><br>
+                <label>Check-Out</label><br>
+                <input type="date" id="chechout" placeholder="Exit Date" class="place4" name="in4"><br><br>
+                <label>How many day you are stay</label> <br>
+                <input type="number" id="day" placeholder="1-2" class="place7" name="in8"><br><br>
+                <label>Select Your Room</label><br>
+                <select class="s1" name="in5" id="room45" onchange="calculate()">
+                    <option>---select---</option>
+                    <option>Prime Room</option>
+                    <option>Classic Room</option>
+                    <option>Normal Room</option>
+                </select><br><br>
+                <label>Candidate</label><br>
+                <input type="number" placeholder="enter a no of candidate" class="place5" name="in6" id="candidate" onblur="clickout()"><br><br>
+                <label>Price</label><br>
+                <input type="number"class="place6" name="in7" id="price">
+            </form><br><br>
+            <button onclick="submit()" class="bbt" align="center">Submit</button>
+        </div>
+        <h1 align="center" class="detail">Details</h1>
+        <script src="book.js"></script>
+    </div>
+     <table class="table" cellpadding="50px" cellspacing="0px" border="2" align="center" id="sujal" class="sujal">
+            <tr>
+                <th class="no">No</th>
+                <th class="nn">Name</th>
+                <th class="cc">Candidate</th>
+                <th class="pp">Price</th>
+                <th class="rr">Room</th>
+            </tr>
+        </table>
+</body>
+</html>
+<script>
+    function submit()
+    {
+        let name=document.getElementById("name").value
+        let candidate=document.getElementById("candidate").value
+        let price=document.getElementById("price").value
+        let room=document.getElementById("room45").value
+        let table=document.getElementById("sujal")
+        let rowCount = table.rows.length;
+        let row = table.insertRow(rowCount);
+        row.insertCell(0).innerText = rowCount; // No
+        row.insertCell(1).innerText = name;      // Name
+        row.insertCell(2).innerText = candidate; // Candidate
+        row.insertCell(3).innerText = price;     // Price
+        row.insertCell(4).innerText = room;
+        document.getElementById("name").value = "";
+        document.getElementById("candidate").value = "";
+        document.getElementById("price").value = "";
+        document.getElementById("room").value = "";
+    }
+    function clickout() 
+    {
+        let age=document.getElementById("age").value
+        if(age<=17)
+    {
+        alert("you are not elligable to book a room")
+    }
+    }
+</script>
