@@ -10,7 +10,5 @@
 <img width="1366" height="720" alt="Screenshot 2025-09-22 220103" src="https://github.com/user-attachments/assets/95f70ac2-1c16-4f05-8844-fcf4e227fcf7" />
 <img width="1366" height="720" alt="Screenshot 2025-09-22 220054" src="https://github.com/user-attachments/assets/ceece61a-60da-4da7-ab38-dc5847d873bb" />
 <img width="1366" height="720" alt="Screenshot 2025-09-22 220003" src="https://github.com/user-attachments/assets/fdadf988-3a2b-48e4-9096-f7ba765b637b" />
-<img width="1366" height="720" alt="Screenshot 2025-09-22 215632" src="https://github.com/user-attachments/assets/cbfcd92d-4284-4bb8-b3c8-6b1adb78c74c" />
-<img width="1366" height="768" alt="Screenshot 2025-09-22 215619" src="https://github.com/user-attachments/assets/5d9e49ef-8490-4cd9-948b-11d46974c2b7" />
 # hotel-booking-frontend-development-by-using-html-css-and-javascript
 🏨 Hotel Booking Frontend  This is a Hotel Booking Frontend web application built using HTML, CSS, and JavaScript. The project provides a simple and interactive interface for users to book hotel rooms, choose room types, input their details, and see the calculated price in real-time.
